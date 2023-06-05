@@ -1,7 +1,5 @@
 package petDog;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class PetDog {
     private String name;
     private String dogBreed;
