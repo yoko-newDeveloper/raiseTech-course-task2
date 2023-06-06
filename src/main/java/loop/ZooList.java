@@ -5,16 +5,16 @@ import java.util.List;
 
 public class ZooList {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
+        List<String> animals = new ArrayList<>();
 
         // リストに要素を追加する
-        list.add("ライオン");
-        list.add("パンダ");
-        list.add("ゾウ");
-        list.add("クマ");
+        animals.add("ライオン");
+        animals.add("パンダ");
+        animals.add("ゾウ");
+        animals.add("クマ");
 
-        for (String s : list) {
-            System.out.println(s);
+        for (String animal : animals) {
+            System.out.println(animal);
         }
     }
 }
