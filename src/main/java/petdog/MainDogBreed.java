@@ -1,4 +1,4 @@
-package petDog;
+package petdog;
 
 public class MainDogBreed {
     public static void main(String[] args) {
