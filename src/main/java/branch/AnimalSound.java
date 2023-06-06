@@ -12,7 +12,7 @@ public class AnimalSound {
 
         // コマンドライン引数で数値を入力する
         if (args.length == 0) {
-            System.out.println("数値を入力してください");
+            System.out.println("何も入力されていません。引数を入力してください。");
             return;
         }
 
@@ -20,7 +20,7 @@ public class AnimalSound {
         boolean found = false;
 
         for (List<String> animalSound : animalSounds) {
-            if (animalSound.get(0). equals(input)) {
+            if (animalSound.get(0).equals(input)) {
                 String sound = animalSound.get(1);
                 String animal = animalSound.get(2);
                 System.out.println("鳴き声：" + sound + " 動物：" + animal);
@@ -30,7 +30,7 @@ public class AnimalSound {
         }
 
         if (!found) {
-            System.out.println("他の動物です");
+            System.out.println("他の動物です。");
         }
     }
 }
