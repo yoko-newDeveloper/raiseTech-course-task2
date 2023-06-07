@@ -13,8 +13,8 @@ public class ZooList {
         animals.add("ゾウ");
         animals.add("クマ");
 
-        for (String animal : animals) {
-            System.out.println(animal);
+        for (String zoo : animals) {
+            System.out.println(zoo);
         }
     }
 }
